@@ -167,6 +167,7 @@
     <EmbeddedResource Include="納品先マスタ.resx">
       <DependentUpon>納品先マスタ.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Documents\PCPRO商店_概要設計書.xls" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -179,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\DB初期化.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
